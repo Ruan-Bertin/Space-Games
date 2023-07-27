@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Games</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="shortcut icon" href="images/icons/favicon-32x32.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+    <div class="container">
+      <h1 class="navbar-brand m-0 section-title neon">Space Games</h1>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+        <ul class="nav nav-pills d-block d-md-flex neon">
+          <li class="nav-item fw-bold">
+            <a href="#sobre-a-loja" class="nav-link">
+              <i class="bi bi-house-door me-1"></i>
+              Sobre a loja
+            </a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a href="#destaques" class="nav-link">
+              <i class="bi bi-graph-up-arrow me-1"></i>
+              Destaques
+            </a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a href="#catalogo" class="nav-link">
+              <i class="bi bi-controller me-1"></i>
+              Catálogo
+            </a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a href="#fale-conosco" class="nav-link">
+              <i class="bi bi-chat-left-text me-1"></i>
+              Fale conosco
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre-a-loja">
+      <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active " data-bs-interval="3000">
+            <img src="images/slides/slide1.jpg"  alt="Foto de letreiro neon" class="img-fluid">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/slides/slide2.jpg" alt="Foto de um jogo" class="img-fluid">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/slides/slide3.jpg" alt="Foto da vitrine da loja" class="img-fluid">
+          </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#carousel" type="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#carousel" type="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+    <div class="pt-5 pb-5">
+      <div class="container" data-aos="zoom-in-down" data-aos-duration="3000">
+        <div class="row">
+          <div class="col-md-5">
+            <img src="images/loja-space.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno da loja">
+          </div>
+          <div class="col-md-7 mt-3 mt-md-0">
+            <h2 class="section-title">Sobre <span class="text-colored neon">a loja</span></h2>
+            <p>
+              Nós somos uma loja de games especializada nos mais diversos tipos de jogos desde os novos lançamentos até os jogos arcades mais antigos.
+            </p>
+            <h3 class="section-title">Sobre <span class="text-colored neon">o espaço</span></h3>
+            <p>
+              Venha nos visitar e se divirta com os mais variados jogos, temos disponíveis para demostração na loja toda a linha playstation desde o 1 até o 5, também possuimos algumas máquinas de fliperama. 
+            </p>
+            <ul>
+              <li>Itens de colecionador</li>
+              <li>Modelos exclusivos</li>
+              <li>Diversidade de jogos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section id="destaques" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center">Próximos <span class="text-colored neon">lançamentos</span></h2>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-4" data-aos="flip-left" data-aos-duration="3000">
+            <img src="images/destaque/starfield.jpg" alt="" class="d-block w-100 rounded mb-2"> 
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi bi-controller"></i>
+              Starfield
+            </h3>
+            <p>
+              Starfield é um futuro jogo eletrônico de RPG de ação e ficção em desenvolvimento pela Bethesda Game Studios, publicado pela Bethesda Softworks e distribuído pela Microsoft
+            </p>
+          </div>
+          <div class="col-md-4" data-aos="flip-right" data-aos-duration="3000">
+            <img src="images/destaque/mk1.jpg" alt="" class="d-block w-100 rounded mb-2"> 
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi bi-controller"></i>
+              Mortal Kombat 1
+            </h3>
+            <p>
+              Mortal Kombat 1 é um jogo eletrônico de luta desenvolvido pela NetherRealm Studios e publicado pela Warner Bros.. O jogo será lançado para PlayStation 5, Xbox Series X/S, Nintendo Switch e Windows em 19 de setembro de 2023. Mortal Kombat 1 será um reboot da série Mortal Kombat
+            </p>
+          </div>
+          <div class="col-md-4" data-aos="flip-left" data-aos-duration="3000">
+            <img src="images/destaque/acMirage.png" alt="" class="d-block w-100 rounded mb-2"> 
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi bi-controller"></i>
+              Assassin's Creed Mirage
+            </h3>
+            <p>
+              Assassin's Creed Mirage é um futuro jogo de ação e aventura desenvolvido pela Ubisoft Bordeaux e publicado pela Ubisoft. Será a décima terceira parcela principal da série Assassin's Creed e a sucessora de Assassin's Creed Valhalla de 2020
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="catalogo" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center mb-5">Nosso <span class="text-colored neon">catálogo</span></h2>
+        </div>
+        <div class="row">
+          <aside class="col-md-2">
+            <nav class="nav nav-pills flex-column nav-catalogo" data-aos="fade-up" data-aos-duration="3000">
+              <button type="button" data-bs-toggle="tab" data-bs-target="#jogos" class="fw-bold text-start nav-link text-colored active nav-cat">Jogos</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#lançamentos" class="fw-bold text-start nav-link text-colored nav-cat">Lançamentos</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#em-breve" class="fw-bold text-start nav-link text-colored nav-cat">Em breve</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#consoles" class="fw-bold text-start nav-link text-colored nav-cat">Consoles</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#perifericos" class="fw-bold text-start nav-link text-colored nav-cat">Periféricos</button>
+            </nav>
+          </aside>
+          <div class="col-md-10">
+            <div class="tab-content">
+              <div class="tab-pane active" id="jogos" data-aos="flip-up" data-aos-duration="3000">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="images/jogos/red-dead.jpg" alt="red dead redempition" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Red Dead Redemption 2</h5>
+                    <p>Explore o oeste selvagem com Arthur Morgan um fora da lei.</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="images/jogos/resident-evil.jpg" alt="Resident evil 4 remake" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Resident Evil 4</h5>
+                    <p>A filha do presidente foi sequestrada e o agente Leon S Kenedy foi enviado para resgata-la</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="images/jogos/crash.jpg" alt="crash 4" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Crash Bandicot 4</h5>
+                    <p>Crash Bandicot 4 é continuação da famosa franquia da actvision dos anos 2000</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="images/jogos/cod.jpg" alt="call of duty vanguard" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Call Of Duty Vanguard</h5>
+                    <p>O mais novo call of duty se passa na 2 guerra mundial</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="images/jogos/fortnite.jpg" alt="fortnite" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Fortnite</h5>
+                    <p>Enfrente diversos inimigos no battle royale ou tente sobreviver a tempestade no salve o mundo</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="images/jogos/far-cry6.jpg" alt="Far Cry 6" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Far Cry 6</h5>
+                    <p>Lute contra um ditador que explora seu povo e destroi toda a ilha</p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="lançamentos" data-aos="flip-up" data-aos-duration="3000">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="images/lancamentos/hogwarts.jpg" alt="hogwarts legacy" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Hogwarts Legacy</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi cum laudantium </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="images/lancamentos/dead-island.jpg" alt="dead island 2" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Dead Island 2</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi cum laudantium </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="images/lancamentos/zelda.jpg" alt="zelda tears of the kingdom" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Zelda Tears Of The Kingdom</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi cum laudantium </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="images/lancamentos/dead-space.jpg" alt="Dead Space remake" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Dead Space Remake</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi cum laudantium </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="images/lancamentos/star-wars.jpg" alt="Star Wars Jedi Survivor" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Star Wars Jedi Survivor</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi cum laudantium </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="em-breve" data-aos="flip-up" data-aos-duration="3000">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="images/destaque/starfield.jpg" alt="Starfield" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Starfield</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi cum laudantium </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="images/destaque/mk1.jpg" alt="Mortal Kombat 1" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Mortal Kombat 1</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi cum laudantium </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="images/destaque/acMirage.png" alt="Assassin's creed Mirage" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Assassin's Creed Mirage</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi cum laudantium </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="consoles" data-aos="flip-up" data-aos-duration="3000">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="images/consoles/ps5.jpg" alt="Playstation 5" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Playstation 5</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi cum laudantium </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="images/consoles/xboxx.jpg" alt="Xbox Series X" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Xbox Series X</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi cum laudantium </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="images/consoles/nintendo.jpg" alt="Nintendo Switch" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Nintendo Switch</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi cum laudantium </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="images/consoles/steam.jpg" alt="Steam Deck" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Steam Deck</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi cum laudantium </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="perifericos" data-aos="flip-up" data-aos-duration="3000">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="images/perifericos/dualsense.jpg" alt="Dualsense Edge" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Dualsense Edge</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi cum laudantium </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="images/perifericos/controle-xbox.jpg" alt="Controles Xbox" class="d-block w-100">
+                    <h5 class="text-colored fw-bold mt-2">Controles Xbox</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi cum laudantium </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="fale-conosco">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-md-7 mb-5">
+            <form data-aos="fade-up" data-aos-duration="3000">
+              <div class="mb-3">
+                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                <input type="text" id="nome" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label fw-bold text-colored">Seu E-mail</label>
+                <input type="email" id="email" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                <input type="tel" id="telefone" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                <textarea class="form-control" id="mensagem" required></textarea>
+              </div>
+              <button type="submit" class="btn fw-bold">Enviar</button>
+            </form>
+          </div>
+          <div class="col-md-5">
+            <div class="row">
+              <h3 class="section-title fs-4 text-colored">
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                Redes sociais
+              </h3>
+              <ul class="social-links">
+                <li class="fs-5">
+                  <a href="#">
+                    <i class="bi bi-facebook text-colored"></i>
+                  </a>
+                </li>
+                <li class="fs-5">
+                  <a href="#">
+                    <i class="bi bi-instagram text-colored ms-1 me-1"></i>
+                  </a>
+                </li>
+                <li class="fs-5">
+                  <a href="#">
+                    <i class="bi bi-whatsapp text-colored"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="row mt-4">
+              <h3 class="section-title fs-4 text-colored">
+                <i class="bi bi-cursor-fill"></i>
+                Endereço
+              </h3>
+              <p>
+                Rua teste Exemplo n° 145, Bairro Bootstrap - São Paulo - SP
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
