@@ -84,6 +84,13 @@ to {
   }
 }
 
+@media screen and (min-width:768px) and (max-width:991px){
+    .nav-catalogo button{
+      width: 117px !important;
+      height: 40px !important;
+    }
+}
+
 @media screen and (min-width:1915px) {
   .carousel-item img{
     width: 100%;
